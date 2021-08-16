@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link rel="icon" type="image/png" href="c:\Users\User\OneDrive\Desktop\TeStPr\pictures\milans.png">
+    <link rel="stylesheet" href="c:\Users\User\OneDrive\Desktop\TeStPr\css\normalize.css">
+    <link rel="stylesheet" href="c:\Users\User\OneDrive\Desktop\TeStPr\css\skeleton.css">
+    <link rel="stylesheet" href="c:\Users\User\OneDrive\Desktop\TeStPr\css\style.css">
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+         #header {
+            margin: auto;
+            width: 200px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        ul, ol {
+            list-style: none;
+        }
+        .nav li{ position: relative;}  
+        .nav li{right: -540px;}
+        .nav li a{color:black; 
+            text-decoration: none;
+            padding: 10px 15px;
+            display: block;
+        }
+        .nav li a:hover{
+            background-color:#EC7063 ;
+        }
+        .nav >li { 
+            float:left;
+        }
+        .nav li ul{
+            display: none;
+            position: absolute;
+            min-width: 140px;
+        }
+        .nav li:hover > ul{
+            display: block;
+        }
+        .nav li ul li{
+            position: relative;
+        }
+        .nav li ul li{
+            right: -50px;
+        }
+    </style>
+    
+</head>
+<body>
+    <div id="header">
+        <ul class="nav">
+            <li>
+                <a href="">
+                    <img src="c:\Users\User\OneDrive\Desktop\TeStPr\pictures\milans.png" height="100px">
+                </a>
+                <ul>
+                    <li>
+                        <a href="c:\Users\User\OneDrive\Desktop\TeStPr\pages.html\Tataimama.html">
+                            <Font>Inicio</Font>
+                        </a>
+                    </li>
+                </ul>
+                <br><br>
+                <ul>
+                    <li>
+                        <a href="c:\Users\User\OneDrive\Desktop\TeStPr\pages.html\Productos.html"> 
+                            <Font>Productos<sup>🍬</sup></Font>
+                        </a>
+                    </li>
+                </ul>
+                <br>
+                <br>
+                <ul>
+                    <li>
+                        <a href="c:\Users\User\OneDrive\Desktop\TeStPr\pages.html\Tinderconnosotros.html"> 
+                            <Font>Tinder con Nostros<sup>❤</sup></Font>
+                        </a>
+                    </li>
+                </ul>
+                <br>
+                <br>
+                <br>
+                <ul>
+                    <li>
+                        <a href="c:\Users\User\OneDrive\Desktop\TeStPr\pages.html\pindelocales.html"> 
+                            <Font>Pin de Locales<sup>📌</sup></Font>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="four columns">
+                    <h1>
+                        <img src="c:\Users\User\OneDrive\Desktop\TeStPr\pictures\milans.png" height="100px">Productos
+                    </h1>
+                </div>
+                <div class="two columns u-pull-right">
+                    <ul>
+                        <li class="submenu">
+                            <img src="c:\Users\User\OneDrive\Desktop\TeStPr\producpictures\carrito1.png" height="80px">
+                            <div id-"#carrito">
+                                <p class="vacio">Carrito Vacio</p>
+                                <table class="u-full-width">
+                                    <thead>
+                                        <tr>
+                                            <th>Imagen</th>
+                                            <th>Platillo</th>
+                                            <th>Precio</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <img src="c:\Users\User\OneDrive\Desktop\TeStPr\producpictures\colmillos.jpg" width="100">
+                                            </td>
+                                            <td>Tarrina de Colmillos (1Lb)</td>
+                                            <td>$3.25</td>
+                                            <td><a href="#" class="borrar-platillo">X</a></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <a href="#" class="button u-full-width">vaciar carrito</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="hero">
+        <div class="container">
+            <div class="row">
+                <div class="six columns">
+                    <div class="contenido-hero">
+                        <h2>😋</h2>
+                        <p>Gomitas, paletas, caramelos, guayabas, tamarindos, turrones...</p>
+                        <form>
+                            <input class="u-full-width" type="text" placeholder="Qu&eacute; te gustar&iacute; probar?">
+                        </form>
+                                         
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="barra">
+        <div class="container">
+            <div class="row">
+                <div class="four columns icono icono1">
+                    <p>Tarrinas de 1Lb<br>
+                    =<font size=20>🐱‍🏍</font></p>
+                </div>
+                <div class="four columns icono icono2">
+                    <p>Tarrinas de 1/2Lb <br>
+                    = <font size=20>🐶</font></p>
+                </div>
+                <div class="four columns icono icono3">
+                    <p>Tarrinas de 1/3Lb<br>
+                    =<font size=20>🐵</font></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="lista-platillos" class="container">
+
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="c:\Users\User\OneDrive\Desktop\TeStPr\producpictures\tortugas.jpg" height="250px" class="imagen-platillos u-full-width">
+                    <div class="info-card">
+                        <h4>Tortugas rellenas</h4>
+                        <p align="center">(Gomita)</p>
+                        <p class="precio"><font size=6>🐱‍🏍</font><span class="u-pull-right">$3.25</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="c:\Users\User\OneDrive\Desktop\TeStPr\producpictures\sapas.jpg" height="250px" class="imagen-platillos u-full-width">
+                    <div class="info-card">
+                        <h4>Sapas</h4>
+                        <p align="center">(Gomita)</p>
+                        <p class="precio"><font size=6>🐱‍🏍</font><span class="u-pull-right">$3.25</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="c:\Users\User\OneDrive\Desktop\TeStPr\producpictures\sandias.jpg" height="250px" class="imagen-platillos u-full-width">
+                    <div class="info-card">
+                        <h4>Sandias</h4>
+                        <p align="center">(Gomita)</p>
+                        <p class="precio"><font size=6>🐱‍🏍</font><span class="u-pull-right">$3.25</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="c:\Users\User\OneDrive\Desktop\TeStPr\producpictures\ositos.jpg" height="250px" class="imagen-platillos u-full-width">
+                    <div class="info-card">
+                        <h4>Ositos</h4>
+                        <p align="center">(Gomita)</p>
+                        <p class="precio"><font size=6>🐱‍🏍</font><span class="u-pull-right">$3.25</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="c:\Users\User\OneDrive\Desktop\TeStPr\producpictures\moritas.jpg" height="250px" class="imagen-platillos u-full-width">
+                    <div class="info-card">
+                        <h4>Moritas</h4>
+                        <p align="center">(Gomita)</p>
+                        <p class="precio"><font size=6>🐱‍🏍</font><span class="u-pull-right">$3.25</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="c:\Users\User\OneDrive\Desktop\TeStPr\producpictures\moritascolores.jpg" height="250px" class="imagen-platillos u-full-width">
+                    <div class="info-card">
+                        <h4>Moritas de Colores</h4>
+                        <p align="center">(Gomita)</p>
+                        <p class="precio"><font size=6>🐱‍🏍</font><span class="u-pull-right">$3.25</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="c:\Users\User\OneDrive\Desktop\TeStPr\producpictures\loros.jpg" height="250px" class="imagen-platillos u-full-width">
+                    <div class="info-card">
+                        <h4>Loros</h4>
+                        <p align="center">(Gomita)</p>
+                        <p class="precio"><font size=6>🐱‍🏍</font><span class="u-pull-right">$3.25</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="c:\Users\User\OneDrive\Desktop\TeStPr\producpictures\huevos.jpg" height="250px" class="imagen-platillos u-full-width">
+                    <div class="info-card">
+                        <h4>Huevitos</h4>
+                        <p align="center">(Gomita)</p>
+                        <p class="precio"><font size=6>🐱‍🏍</font><span class="u-pull-right">$3.25</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="c:\Users\User\OneDrive\Desktop\TeStPr\producpictures\gusanos.jpg" height="250px" class="imagen-platillos u-full-width">
+                    <div class="info-card">
+                        <h4>Gusanos</h4>
+                        <p align="center">(Gomita)</p>
+                        <p class="precio"><font size=6>🐱‍🏍</font><span class="u-pull-right">$3.25</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="c:\Users\User\OneDrive\Desktop\TeStPr\producpictures\grisly.jpg" height="250px" class="imagen-platillos u-full-width">
+                    <div class="info-card">
+                        <h4>Gusano Chisly</h4>
+                        <p align="center">(Gomita)</p>
+                        <p class="precio"><font size=6>🐱‍🏍</font><span class="u-pull-right">$3.25</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="c:\Users\User\OneDrive\Desktop\TeStPr\producpictures\fresasbb.jpg" height="250px" class="imagen-platillos u-full-width">
+                    <div class="info-card">
+                        <h4>Fresas BB</h4>
+                        <p align="center">(Gomita)</p>
+                        <p class="precio"><font size=6>🐱‍🏍</font><span class="u-pull-right">$3.25</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="c:\Users\User\OneDrive\Desktop\TeStPr\producpictures\fresas.jpg" height="250px" class="imagen-platillos u-full-width">
+                    <div class="info-card">
+                        <h4>Fresas</h4>
+                        <p align="center">(Gomita)</p>
+                        <p class="precio"><font size=6>🐱‍🏍</font><span class="u-pull-right">$3.25</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="c:\Users\User\OneDrive\Desktop\TeStPr\producpictures\estrellas.jpg" height="250px" class="imagen-platillos u-full-width">
+                    <div class="info-card">
+                        <h4>Estrellas</h4>
+                        <p align="center">(Gomita)</p>
+                        <p class="precio"><font size=6>🐱‍🏍</font><span class="u-pull-right">$3.25</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="c:\Users\User\OneDrive\Desktop\TeStPr\producpictures\escarabajos.jpg" height="250px" class="imagen-platillos u-full-width">
+                    <div class="info-card">
+                        <h4>Escarabajps</h4>
+                        <p align="center">(Gomita)</p>
+                        <p class="precio"><font size=6>🐱‍🏍</font><span class="u-pull-right">$3.25</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="c:\Users\User\OneDrive\Desktop\TeStPr\producpictures\dientes.jpg" height="250px" class="imagen-platillos u-full-width">
+                    <div class="info-card">
+                        <h4>Dientitos</h4>
+                        <p align="center">(Gomita)</p>
+                        <p class="precio"><font size=6>🐱‍🏍</font><span class="u-pull-right">$3.25</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="c:\Users\User\OneDrive\Desktop\TeStPr\producpictures\cuicas2.jpg" height="250px" class="imagen-platillos u-full-width">
+                    <div class="info-card">
+                        <h4>Cuiquitas</h4>
+                        <p align="center">(Gomita)</p>
+                        <p class="precio"><font size=6>🐱‍🏍</font><span class="u-pull-right">$3.25</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="c:\Users\User\OneDrive\Desktop\TeStPr\producpictures\cuicas.jpg" height="250px" class="imagen-platillos u-full-width">
+                    <div class="info-card">
+                        <h4>Cuiquitotas</h4>
+                        <p align="center">(Gomita)</p>
+                        <p class="precio"><font size=6>🐱‍🏍</font><span class="u-pull-right">$3.25</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="c:\Users\User\OneDrive\Desktop\TeStPr\producpictures\corazonrelleno.jpg" height="250px" class="imagen-platillos u-full-width">
+                    <div class="info-card">
+                        <h4>Coraz&oacute;n Relleno</h4>
+                        <p align="center">(Gomita)</p>
+                        <p class="precio"><font size=6>🐱‍🏍</font><span class="u-pull-right">$3.25</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="c:\Users\User\OneDrive\Desktop\TeStPr\producpictures\colmillos.jpg" height="250px" class="imagen-platillos u-full-width">
+                    <div class="info-card">
+                        <h4>Colmillos</h4>
+                        <p align="center">(Gomita)</p>
+                        <p class="precio"><font size=6>🐱‍🏍</font><span class="u-pull-right">$3.25</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="c:\Users\User\OneDrive\Desktop\TeStPr\producpictures\cocodrilos.jpg" height="250px" class="imagen-platillos u-full-width">
+                    <div class="info-card">
+                        <h4>Cocodrilos</h4>
+                        <p align="center">(Gomita)</p>
+                        <p class="precio"><font size=6>🐱‍🏍</font><span class="u-pull-right">$3.25</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="c:\Users\User\OneDrive\Desktop\TeStPr\producpictures\cintacolor.jpg" height="250px" class="imagen-platillos u-full-width">
+                    <div class="info-card">
+                        <h4>Cinta de Color</h4>
+                        <p align="center">(Gomita)</p>
+                        <p class="precio"><font size=6>🐱‍🏍</font><span class="u-pull-right">$3.25</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="c:\Users\User\OneDrive\Desktop\TeStPr\producpictures\chocolate.jpg" height="250px" class="imagen-platillos u-full-width">
+                    <div class="info-card">
+                        <h4>Chocolate</h4>
+                        <p align="center">(Gomita)</p>
+                        <p class="precio"><font size=6>🐱‍🏍</font><span class="u-pull-right">$3.25</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="c:\Users\User\OneDrive\Desktop\TeStPr\producpictures\chocoblanco.jpg" height="250px" class="imagen-platillos u-full-width">
+                    <div class="info-card">
+                        <h4>Chocolate Blanco</h4>
+                        <p align="center">(Gomita)</p>
+                        <p class="precio"><font size=6>🐱‍🏍</font><span class="u-pull-right">$3.25</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="c:\Users\User\OneDrive\Desktop\TeStPr\producpictures\cerebros.jpg" height="250px" class="imagen-platillos u-full-width">
+                    <div class="info-card">
+                        <h4>Cerebros</h4>
+                        <p align="center">(Gomita)</p>
+                        <p class="precio"><font size=6>🐱‍🏍</font><span class="u-pull-right">$3.25</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="c:\Users\User\OneDrive\Desktop\TeStPr\producpictures\caracol.jpg" height="250px" class="imagen-platillos u-full-width">
+                    <div class="info-card">
+                        <h4>Gary el Caracol</h4>
+                        <p align="center">(Gomita)</p>
+                        <p class="precio"><font size=6>🐱‍🏍</font><span class="u-pull-right">$3.25</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="c:\Users\User\OneDrive\Desktop\TeStPr\producpictures\calaberas.jpg" height="250px" class="imagen-platillos u-full-width">
+                    <div class="info-card">
+                        <h4>Calaberas</h4>
+                        <p align="center">(Gomita)</p>
+                        <p class="precio"><font size=6>🐱‍🏍</font><span class="u-pull-right">$3.25</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="c:\Users\User\OneDrive\Desktop\TeStPr\producpictures\cablesurtido.jpg" height="250px" class="imagen-platillos u-full-width">
+                    <div class="info-card">
+                        <h4>Cable surtido</h4>
+                        <p align="center">(Gomita)</p>
+                        <p class="precio"><font size=6>🐱‍🏍</font><span class="u-pull-right">$3.25</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="c:\Users\User\OneDrive\Desktop\TeStPr\producpictures\cablerosa.jpg" height="250px" class="imagen-platillos u-full-width">
+                    <div class="info-card">
+                        <h4>Cable Rosa</h4>
+                        <p align="center">(Gomita)</p>
+                        <p class="precio"><font size=6>🐱‍🏍</font><span class="u-pull-right">$3.25</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="c:\Users\User\OneDrive\Desktop\TeStPr\producpictures\cablerojo.jpg" height="250px" class="imagen-platillos u-full-width">
+                    <div class="info-card">
+                        <h4>Cable Rojo</h4>
+                        <p align="center">(Gomita)</p>
+                        <p class="precio"><font size=6>🐱‍🏍</font><span class="u-pull-right">$3.25</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="c:\Users\User\OneDrive\Desktop\TeStPr\producpictures\cableazul.jpg" height="250px" class="imagen-platillos u-full-width">
+                    <div class="info-card">
+                        <h4>Cable Azul</h4>
+                        <p align="center">(Gomita)</p>
+                        <p class="precio"><font size=6>🐱‍🏍</font><span class="u-pull-right">$3.25</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="c:\Users\User\OneDrive\Desktop\TeStPr\producpictures\cable.jpg" height="250px" class="imagen-platillos u-full-width">
+                    <div class="info-card">
+                        <h4>Cable</h4>
+                        <p align="center">(Gomita)</p>
+                        <p class="precio"><font size=6>🐱‍🏍</font><span class="u-pull-right">$3.25</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="c:\Users\User\OneDrive\Desktop\TeStPr\producpictures\bananas.jpg" height="250px" class="imagen-platillos u-full-width">
+                    <div class="info-card">
+                        <h4>Bananas</h4>
+                        <p align="center">(Gomita)</p>
+                        <p class="precio"><font size=6>🐱‍🏍</font><span class="u-pull-right">$3.25</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="c:\Users\User\OneDrive\Desktop\TeStPr\producpictures\ballenas.jpg" height="250px" class="imagen-platillos u-full-width">
+                    <div class="info-card">
+                        <h4>Ballenas</h4>
+                        <p align="center">(Gomita)</p>
+                        <p class="precio"><font size=6>🐱‍🏍</font><span class="u-pull-right">$3.25</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="c:\Users\User\OneDrive\Desktop\TeStPr\producpictures\aros.jpg" height="250px" class="imagen-platillos u-full-width">
+                    <div class="info-card">
+                        <h4>Aros</h4>
+                        <p align="center">(Gomita)</p>
+                        <p class="precio"><font size=6>🐱‍🏍</font><span class="u-pull-right">$3.25</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="c:\Users\User\OneDrive\Desktop\TeStPr\producpictures\arcoiris.jpg" height="250px" class="imagen-platillos u-full-width">
+                    <div class="info-card">
+                        <h4>Arcoiris</h4>
+                        <p align="center">(Gomita)</p>
+                        <p class="precio"><font size=6>🐱‍🏍</font><span class="u-pull-right">$3.25</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="c:\Users\User\OneDrive\Desktop\TeStPr\producpictures\almendras.jpg" height="250px" class="imagen-platillos u-full-width">
+                    <div class="info-card">
+                        <h4>Almendras</h4>
+                        <p align="center">(Gomita)</p>
+                        <p class="precio"><font size=6>🐱‍🏍</font><span class="u-pull-right">$3.25</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        A $1 😲
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="c:\Users\User\OneDrive\Desktop\TeStPr\producpictures\quinche\mix.jpeg" height="250px" class="imagen-platillos u-full-width">
+                    <div class="info-card">
+                        <h4>Mix</h4>
+                        <p align="center">(Gomita)</p>
+                        <p class="precio"><font size=6>😲</font><span class="u-pull-right">$1</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="c:\Users\User\OneDrive\Desktop\TeStPr\producpictures\quinche\mentitas.jpeg" height="250px" class="imagen-platillos u-full-width">
+                    <div class="info-card">
+                        <h4>Mentas</h4>
+                        <p align="center">(Turrones)</p>
+                        <p class="precio"><font size=6>😲</font><span class="u-pull-right">$1</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="c:\Users\User\OneDrive\Desktop\TeStPr\producpictures\quinche\maní.jpeg" height="250px" class="imagen-platillos u-full-width">
+                    <div class="info-card">
+                        <h4>Man&iacute; </h4>
+                        <p align="center">(Gomita)</p>
+                        <p class="precio"><font size=6>😲</font><span class="u-pull-right">$1</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="c:\Users\User\OneDrive\Desktop\TeStPr\producpictures\quinche\caramelonaranja.jpeg" height="250px" class="imagen-platillos u-full-width">
+                    <div class="info-card">
+                        <h4>Cocadas</h4>
+                        <p align="center">(Dulce de coco)</p>
+                        <p class="precio"><font size=6>😲</font><span class="u-pull-right">$1/span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="c:\Users\User\OneDrive\Desktop\TeStPr\producpictures\cocodrilos.jpg" height="250px" class="imagen-platillos u-full-width">
+                    <div class="info-card">
+                        <h4>Golitas de Ajonjol&iacute;</h4>
+                        <p align="center">(Ajonjol&iacute;)</p>
+                        <p class="precio"><font size=6>😲</font><span class="u-pull-right">$1</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="c:\Users\User\OneDrive\Desktop\TeStPr\producpictures\quinche\cortadoenbote.jpeg" height="250px" class="imagen-platillos u-full-width">
+                    <div class="info-card">
+                        <h4>Carameloso</h4>
+                        <p align="center">(Caramelo)</p>
+                        <p class="precio"><font size=6>😲</font><span class="u-pull-right">$1</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="c:\Users\User\OneDrive\Desktop\TeStPr\producpictures\quinche\corazon.jpeg" height="250px" class="imagen-platillos u-full-width">
+                    <div class="info-card">
+                        <h4>Corazón rojo</h4>
+                        <p align="center">(Paleta de caramelo)</p>
+                        <p class="precio"><font size=6>😲</font><span class="u-pull-right">$1</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="c:\Users\User\OneDrive\Desktop\TeStPr\producpictures\quinche\chocolate.jpeg" height="250px" class="imagen-platillos u-full-width">
+                    <div class="info-card">
+                        <h4>Chocolatitos</h4>
+                        <p align="center">(Mashmellow cubierto de chocolate)</p>
+                        <p class="precio"><font size=6>😲</font><span class="u-pull-right">$1</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="c:\Users\User\OneDrive\Desktop\TeStPr\producpictures\quinche\durazno.png" height="250px" class="imagen-platillos u-full-width">
+                    <div class="info-card">
+                        <h4>Caramelo de durazno</h4>
+                        <p align="center">(Caramelo)</p>
+                        <p class="precio"><font size=6>😲</font><span class="u-pull-right">$1</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="c:\Users\User\OneDrive\Desktop\TeStPr\producpictures\quinche\alpiste.jpeg" height="250px" class="imagen-platillos u-full-width">
+                    <div class="info-card">
+                        <h4>Caramelo surtido</h4>
+                        <p align="center">(Caramelos de sabores)</p>
+                        <p class="precio"><font size=6>😲</font><span class="u-pull-right">$1</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="c:\Users\User\OneDrive\Desktop\TeStPr\producpictures\quinche\tuco.jpeg" height="250px" class="imagen-platillos u-full-width">
+                    <div class="info-card">
+                        <h4>Tuco de colores</h4>
+                        <p align="center">(Caramelo)</p>
+                        <p class="precio"><font size=6>😲</font><span class="u-pull-right">$1</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="c:\Users\User\OneDrive\Desktop\TeStPr\producpictures\quinche\mickey.jpeg" height="250px" class="imagen-platillos u-full-width">
+                    <div class="info-card">
+                        <h4>Minnie</h4>
+                        <p align="center">(Paleta de caramelo decorado)</p>
+                        <p class="precio"><font size=6>😲</font><span class="u-pull-right">$1</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="c:\Users\User\OneDrive\Desktop\TeStPr\producpictures\quinche\guayabas.jpeg" height="250px" class="imagen-platillos u-full-width">
+                    <div class="info-card">
+                        <h4>Guayabas</h4>
+                        <p align="center">(Guayabs)</p>
+                        <p class="precio"><font size=6></font>😲</font><span class="u-pull-right">$1</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="c:\Users\User\OneDrive\Desktop\TeStPr\producpictures\quinche\alfenice.jpeg" height="250px" class="imagen-platillos u-full-width">
+                    <div class="info-card">
+                        <h4>Alfenice</h4>
+                        <p align="center">(Panela)</p>
+                        <p class="precio"><font size=6>😲</font><span class="u-pull-right">$1</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="c:\Users\User\OneDrive\Desktop\TeStPr\producpictures\quinche\melcocha.jpeg" height="250px" class="imagen-platillos u-full-width">
+                    <div class="info-card">
+                        <h4>Melcocha</h4>
+                        <p align="center">(Caramelo)</p>
+                        <p class="precio"><font size=6>😲</font><span class="u-pull-right">$1</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="four columns">
+                    <nav class="menu">
+                        <a class="enlace" href="#">Pedidos a Domicilio</a>
+                        <a class="enlace" href="#">Pedidos en Línea</a>
+                        <a class="enlace" href="#">Compra presencial (recomendado)</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
